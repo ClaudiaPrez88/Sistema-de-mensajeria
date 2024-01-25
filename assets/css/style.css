@@ -1,0 +1,91 @@
+
+.user-img{
+    border-radius: 50%;
+    height: 50px;
+    width: auto;
+}
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    border: 1px #a7a7a7 solid;
+    width: 300px;
+    padding: 15px;
+}
+.box-button{
+    display: flex;
+    justify-content: center;
+    border: 1px #a7a7a7 solid;
+    width: 300px;
+    padding: 15px;
+}
+.nombre {
+    padding-left: 15px;
+}
+.tit{
+    font-size: 1rem;
+}
+.sub{
+    font-size: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #A0AAC7;
+}
+.sub-user{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #717171;  
+}
+button{
+    text-align: center;
+    background-color: #A491D3;
+    padding: 10px 30px;
+    border: #A491D3 1px solid;
+    color: #ffffff;
+}
+.img-container{
+    width: 270px;
+    display: flex;
+    justify-content: flex-start;
+}
+.log-img-container{
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+#plataforma{
+    background-color: #F8F8F8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icono-manos{
+    background-color: #B0A0D8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    color: #ffffff;
+    font-size: 5rem;
+    border-radius: 5px;
+}
+.contenedor-plataforma{
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+}
