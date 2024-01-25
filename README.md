@@ -4,4 +4,4 @@ Este desafio se trata de creación de diseños responsivos con Flexbox
 
 ## Capturas de pantalla de proyecto
 
-!(assets/img/screen.png)
+!![Descripción de la imagen](assets/img/screen.png)
