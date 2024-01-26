@@ -14,6 +14,9 @@ main{
     display: flex;
     flex-direction: row;
 }
+p span{
+    font-weight: bold;
+}
 .box{
     border: 1px #a7a7a7 solid;
     width: 300px;
