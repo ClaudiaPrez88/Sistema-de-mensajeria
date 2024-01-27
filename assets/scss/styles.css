@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contactos {
+  height: 100vh;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+}
+#contactos::-webkit-scrollbar {
+  width: 8px;
+}
+#contactos::-webkit-scrollbar-thumb {
+  border: solid 2px rgb(180, 180, 180);
+  border-radius: 5px;
+  background-color: rgb(180, 180, 180);
+}
+#contactos ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+#contactos ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  border: #717171 1px solid;
+  padding: 10px;
+}
+#contactos ul li:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+#contactos ul li button {
+  text-align: center;
+  background-color: #A491D3;
+  padding: 10px 30px;
+  border: #A491D3 1px solid;
+  color: #ffffff;
+}
+#contactos ul li:hover {
+  background-color: #e6dcff;
+}
+#contactos ul li .nombre {
+  padding-left: 15px;
+}
+#contactos ul li .tit {
+  font-size: 1rem;
+}
+#contactos ul li .sub {
+  font-size: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #A0AAC7;
+}
+#contactos ul li .sub-user {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #717171;
+}
+#contactos ul li .user {
+  display: flex;
+  justify-content: space-evenly;
+}
+#contactos ul li .user .log-img-container {
+  display: flex;
+  justify-content: space-between;
+}
+#contactos ul li .user .iconos {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#contactos ul li .user .iconos i {
+  padding-left: 15px;
+}
+#contactos ul li img {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+
+#principal {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F8F8F8;
+}
+#principal .contenedor-plataforma {
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
+}
+#principal i {
+  background-color: #B0A0D8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  color: #ffffff;
+  font-size: 5rem;
+  border-radius: 5px;
+}
+#principal span {
+  font-weight: bold;
+}/*# sourceMappingURL=styles.css.map */
