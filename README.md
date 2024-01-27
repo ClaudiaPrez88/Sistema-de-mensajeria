@@ -2,4 +2,4 @@
 
 Este desafio se trata de creación de diseños responsivos con Flexbox
 
-![Layout responsive creado con Flexbox](assets/img/screen.png)
+![Layout responsive creado con Flexbox](assets/img/screen2.png)
